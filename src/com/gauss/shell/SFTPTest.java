@@ -48,7 +48,7 @@ public class SFTPTest {
     	       channelSftp = (ChannelSftp)session.openChannel("sftp");
     	       channelSftp.connect();
     	   	   //4、进行文件传输操作：put()、get()....
-        	   channelSftp.put("/Users/zhaojizhuang/Class Diagram0.asta","/a");
+        	   channelSftp.put("/a.txt","/b.tx");
         	        
         	   //5、操作完毕后，关闭通道并退出本次会话
         	   if(channelSftp!=null && channelSftp.isConnected()){
