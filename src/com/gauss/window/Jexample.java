@@ -92,7 +92,7 @@ public class Jexample implements ActionListener {
 				System.out.println("chosen file is: "+f);
 				
 				try {
-					SFTPTest.transfer("localhost", "root", "666666", "22", f.toString(), "/usr");
+					SFTPTest.putfile("localhost", "root", "666666", 22, f.toString(), "/b.a");
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
