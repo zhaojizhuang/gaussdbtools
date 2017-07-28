@@ -18,6 +18,8 @@ import javax.print.DocFlavor.STRING;
  *
  */
 
+
+
 public class PropertiesUtils {
 	// 配置文件的路径
 	static String profilepath = "settings.properties";
