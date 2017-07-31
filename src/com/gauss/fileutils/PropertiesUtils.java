@@ -11,6 +11,13 @@ import java.io.OutputStream;
 import java.util.Properties;
 
 import javax.print.DocFlavor.STRING;
+import javax.sound.midi.MidiDevice.Info;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.gauss.shell.SFTPTest;
+import com.gauss.shell.hostinfo;
 /**
  * 
  * 
@@ -21,6 +28,8 @@ import javax.print.DocFlavor.STRING;
 
 
 public class PropertiesUtils {
+	private static Logger log= LogManager.getLogger(SFTPTest.class);
+	static hostinfo host = new hostinfo(); 
 	// 配置文件的路径
 	static String profilepath = "settings.properties";
 	static File file =new File(profilepath);
@@ -32,6 +41,7 @@ public class PropertiesUtils {
 		try {
 			if(file.exists()){
 				props.load(new FileInputStream(profilepath));
+				log.info("load file"+profilepath);
 				//System.out.println(file+"已经存在");
 			}else{
 				file.createNewFile();
@@ -95,16 +105,21 @@ public class PropertiesUtils {
 	            System.err.println("属性文件更新错误");
 	        }
 	    }
-
+	    public static hostinfo ReadParams(){
+	    	log.info("read params");
+	    	host.setHost(PropertiesUtils.getKeyValue("host"));
+	    	host.setName(PropertiesUtils.getKeyValue("name"));
+	    	host.setPassword(PropertiesUtils.getKeyValue("password"));
+	    	host.setPort(PropertiesUtils.getKeyValue("port"));
+	    	host.setSql_dst_path(PropertiesUtils.getKeyValue("sql_dst_path"));
+	    	log.info("hostinfo:"+host+",");
+	    	return host;
+	    }
 	  
 	    //测试代码
 	    public static void main(String[] args) {
 	       
-	        writeProperties("host", "localhost");   
-	        String hoString=getKeyValue("host1");
-	        String host=readValue("settings.properties", "host");
-	        System.out.println("hoString:"+hoString);
-	        System.out.println("host:"+host);
+	    	//ReadParams();
 	    }
 	}
 

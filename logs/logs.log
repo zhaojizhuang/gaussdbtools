@@ -1,3 +1,624 @@
 2017-08-01 at 00:56:23 CST INFO  com.gauss.window.Main$1 45 run - 进入main run /Users/zhaojizhuang/Documents/Java Workspace/gaussdbtools
 2017-08-01 at 00:56:23 CST INFO  com.gauss.window.Main$1 47 run - 创建 main窗口
 2017-08-01 at 00:56:23 CST WARN  com.gauss.window.Main$1 48 run - adsfasdf
+2017-08-01 at 01:23:33 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:23:34 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:23:34 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:23:39 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:23:43 CST INFO  com.gauss.shell.SFTPTest 36 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:23:43 CST INFO  com.gauss.shell.SFTPTest 57 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:23:43 CST ERROR com.gauss.shell.SFTPTest 82 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:26:30 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:26:31 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:26:31 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:26:34 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:26:35 CST INFO  com.gauss.shell.SFTPTest 36 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:26:35 CST INFO  com.gauss.shell.SFTPTest 57 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:26:35 CST ERROR com.gauss.shell.SFTPTest 82 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:27:35 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:27:36 CST INFO  com.gauss.shell.SFTPTest 36 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:27:36 CST INFO  com.gauss.shell.SFTPTest 57 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:27:36 CST ERROR com.gauss.shell.SFTPTest 82 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:28:38 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:28:39 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:28:39 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:28:47 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:28:48 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:28:48 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:28:50 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:28:51 CST INFO  com.gauss.shell.SFTPTest 46 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:28:51 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:28:51 CST INFO  com.gauss.shell.SFTPTest 58 putfile - jsch getsession ,hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:28:51 CST ERROR com.gauss.shell.SFTPTest 83 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:29:55 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:29:56 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:29:56 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:29:58 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:29:59 CST INFO  com.gauss.shell.SFTPTest 46 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:29:59 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:29:59 CST INFO  com.gauss.shell.SFTPTest 58 putfile - jsch getsession ,hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:29:59 CST ERROR com.gauss.shell.SFTPTest 83 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:31:21 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:31:22 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:31:22 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:31:24 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:31:27 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 01:31:27 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:31:27 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:31:27 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 01:31:27 CST ERROR com.gauss.shell.SFTPTest 84 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 01:34:02 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 01:34:02 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:35:22 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 01:35:22 CST INFO  com.gauss.fileutils.PropertiesUtils 110 ReadParams - read params
+2017-08-01 at 01:35:22 CST INFO  com.gauss.fileutils.PropertiesUtils 116 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 110 ReadParams - read params
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 66 getKeyValue - keyhost,value,localhost
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 66 getKeyValue - keyname,value,null
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 66 getKeyValue - keypassword,value,null
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 66 getKeyValue - keyport,value,null
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 66 getKeyValue - keysql_dst_path,value,null
+2017-08-01 at 01:36:43 CST INFO  com.gauss.fileutils.PropertiesUtils 116 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - keyhost,value,localhost
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - keyname,value,null
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - keypassword,value,null
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - keyport,value,null
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - keysql_dst_path,value,null
+2017-08-01 at 01:38:02 CST INFO  com.gauss.fileutils.PropertiesUtils 117 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,localhost
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,null
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,null
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,null
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,null
+2017-08-01 at 01:39:08 CST INFO  com.gauss.fileutils.PropertiesUtils 117 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   localhost
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   null
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   null
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   null
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   null
+2017-08-01 at 01:39:15 CST INFO  com.gauss.fileutils.PropertiesUtils 117 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   null
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   localhost
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   null
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   null
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   null
+2017-08-01 at 01:39:50 CST INFO  com.gauss.fileutils.PropertiesUtils 118 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   null
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   localhost
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   null
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   null
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   null
+2017-08-01 at 01:40:20 CST INFO  com.gauss.fileutils.PropertiesUtils 118 ReadParams - hostinfo:hostinfo [host=localhost, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   null
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   null
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   null
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   null
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   null
+2017-08-01 at 01:40:52 CST INFO  com.gauss.fileutils.PropertiesUtils 118 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   null
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   null
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   null
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   null
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   null
+2017-08-01 at 01:41:02 CST INFO  com.gauss.fileutils.PropertiesUtils 118 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 01:41:13 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load file   settings.properties
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 111 ReadParams - read params
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  name,value,   root
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  host,value,   localhost
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  password,value,   666666
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  port,value,   22
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 67 getKeyValue - key  sql_dst_path,value,   /Users/zhaojizhuang/Desktop/111
+2017-08-01 at 01:41:14 CST INFO  com.gauss.fileutils.PropertiesUtils 118 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 01:41:42 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 01:41:42 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 01:41:42 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 01:41:50 CST INFO  com.gauss.window.Main$1 48 run - 进入main run 
+2017-08-01 at 01:41:51 CST INFO  com.gauss.window.Main$1 50 run - 创建 main窗口
+2017-08-01 at 01:41:51 CST WARN  com.gauss.window.Main$1 51 run - adsfasdf
+2017-08-01 at 01:41:54 CST INFO  com.gauss.window.Main 80 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 01:41:55 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 01:41:55 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 01:42:18 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 01:42:18 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 01:42:18 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 01:42:18 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 01:42:19 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 01:42:19 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 01:42:19 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 02:01:58 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:01:58 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:01:58 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:01:58 CST INFO  com.gauss.shell.ExeCommand 40 Exec - session get connected
+2017-08-01 at 02:02:45 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:02:45 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:02:45 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:02:45 CST INFO  com.gauss.shell.ExeCommand 40 Exec - session get connected
+2017-08-01 at 02:02:46 CST INFO  com.gauss.shell.ExeCommand 58 Exec - exit-status: 0
+2017-08-01 at 02:12:35 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:12:35 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:12:35 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:12:35 CST INFO  com.gauss.shell.SSHCommandExecutor 33 execute - resaultnull
+2017-08-01 at 02:13:06 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:13:06 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:13:06 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:13:07 CST INFO  com.gauss.shell.SSHCommandExecutor 34 execute - resaultnull
+2017-08-01 at 02:13:38 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:13:38 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:13:38 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:13:39 CST INFO  com.gauss.shell.SSHCommandExecutor 34 execute - resaultnull
+2017-08-01 at 02:14:31 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:14:31 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:14:31 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:14:31 CST INFO  com.gauss.shell.SSHCommandExecutor 66 execute - .CFUserTextEncoding
+2017-08-01 at 02:14:31 CST INFO  com.gauss.shell.SSHCommandExecutor 36 execute - resaultnull
+2017-08-01 at 02:15:13 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:15:13 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:15:13 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:15:14 CST INFO  com.gauss.shell.SSHCommandExecutor 61 execute - The remote command is: ls
+2017-08-01 at 02:15:14 CST INFO  com.gauss.shell.SSHCommandExecutor 66 execute - .CFUserTextEncoding
+2017-08-01 at 02:15:14 CST INFO  com.gauss.shell.SSHCommandExecutor 36 execute - resaultnull
+2017-08-01 at 02:17:11 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:17:11 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:17:11 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:17:12 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:17:49 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:17:49 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:17:49 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:17:50 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:21:40 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:21:40 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:21:40 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:21:40 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:24:45 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:24:45 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:24:45 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:24:46 CST INFO  com.gauss.shell.ExeCommand 40 Exec - session get connected
+2017-08-01 at 02:24:47 CST INFO  com.gauss.shell.ExeCommand 58 Exec - exit-status: 0
+2017-08-01 at 02:25:24 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:25:24 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:25:24 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:25:24 CST INFO  com.gauss.shell.SSHCommandExecutor 51 execute - session get connected
+2017-08-01 at 02:25:24 CST INFO  com.gauss.shell.SSHCommandExecutor 60 execute - The remote command is: ls
+2017-08-01 at 02:25:24 CST INFO  com.gauss.shell.SSHCommandExecutor 65 execute - .CFUserTextEncoding
+2017-08-01 at 02:25:24 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:25:42 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:25:42 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:25:42 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:25:42 CST INFO  com.gauss.shell.SSHCommandExecutor 51 execute - session get connected
+2017-08-01 at 02:25:42 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:26:10 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:26:10 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:26:10 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:26:11 CST INFO  com.gauss.shell.SSHCommandExecutor 35 execute - resaultnull
+2017-08-01 at 02:28:10 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:28:10 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:28:10 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:28:10 CST INFO  com.gauss.shell.ExeCommand 42 Exec - session get connected
+2017-08-01 at 02:30:00 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:30:00 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:30:00 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:30:00 CST INFO  com.gauss.shell.ExeCommand 42 Exec - session get connected
+2017-08-01 at 02:30:28 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:30:28 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:30:28 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:30:28 CST INFO  com.gauss.shell.ExeCommand 42 Exec - session get connected
+2017-08-01 at 02:30:28 CST INFO  com.gauss.shell.ExeCommand 51 Exec - befor while
+2017-08-01 at 02:30:51 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:30:51 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:30:51 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:30:51 CST INFO  com.gauss.shell.ExeCommand 42 Exec - session get connected
+2017-08-01 at 02:30:51 CST INFO  com.gauss.shell.ExeCommand 51 Exec - befor whilenull
+2017-08-01 at 02:31:40 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:31:40 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:31:40 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 42 Exec - session get connected
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 52 Exec - befor while.CFUserTextEncoding
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - .forward
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - .oracle_jre_usage
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - .sh_history
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - .viminfo
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - .zjz.swp
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - Library
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - Parallels
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - bash_profile
+2017-08-01 at 02:31:40 CST INFO  com.gauss.shell.ExeCommand 54 Exec - vimrc
+2017-08-01 at 02:34:11 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:34:11 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:34:11 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 43 Exec - session get connected
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 53 Exec - befor while.CFUserTextEncoding
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - .forward
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - .oracle_jre_usage
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - .sh_history
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - .viminfo
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - .zjz.swp
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - Library
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - Parallels
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - bash_profile
+2017-08-01 at 02:34:11 CST INFO  com.gauss.shell.ExeCommand 55 Exec - vimrc
+2017-08-01 at 02:52:12 CST INFO  com.gauss.window.Main$1 54 run - 进入main run 
+2017-08-01 at 02:52:12 CST INFO  com.gauss.window.Main$1 56 run - 创建 main窗口
+2017-08-01 at 02:52:12 CST WARN  com.gauss.window.Main$1 57 run - adsfasdf
+2017-08-01 at 02:58:24 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 02:58:25 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 02:58:25 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 02:58:28 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 02:58:29 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 02:58:29 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 02:58:29 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 02:58:29 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 02:58:29 CST ERROR com.gauss.shell.SFTPTest 84 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 02:58:29 CST ERROR com.gauss.window.Main 103 actionPerformed - java.lang.NullPointerException
+2017-08-01 at 02:59:18 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:59:18 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:59:18 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 02:59:18 CST ERROR com.gauss.shell.ExeCommand 30 Exec - java.lang.NumberFormatException: null
+2017-08-01 at 02:59:28 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 02:59:28 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 02:59:28 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 02:59:28 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 02:59:28 CST ERROR com.gauss.shell.SFTPTest 84 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 02:59:28 CST ERROR com.gauss.window.Main 103 actionPerformed - java.lang.NullPointerException
+2017-08-01 at 02:59:39 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:59:39 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 02:59:39 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 02:59:39 CST ERROR com.gauss.shell.ExeCommand 30 Exec - java.lang.NumberFormatException: null
+2017-08-01 at 02:59:50 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 02:59:51 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 02:59:51 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 02:59:54 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 02:59:57 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 02:59:57 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 02:59:57 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 02:59:57 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 02:59:57 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 02:59:57 CST ERROR com.gauss.shell.SFTPTest 84 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 02:59:57 CST ERROR com.gauss.window.Main 103 actionPerformed - java.lang.NullPointerException
+2017-08-01 at 03:00:32 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:00:32 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null],
+2017-08-01 at 03:00:33 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:00:33 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=null, name=null, password=null, port=null, sql_dst_path=null]
+2017-08-01 at 03:00:33 CST ERROR com.gauss.shell.SFTPTest 84 putfile - java.lang.NumberFormatException: null
+2017-08-01 at 03:00:33 CST ERROR com.gauss.window.Main 103 actionPerformed - java.lang.NullPointerException
+2017-08-01 at 03:00:55 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:00:56 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:00:56 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:00:59 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:01:01 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:01:01 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:01:01 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.ExeCommand 44 Exec - session get connected
+2017-08-01 at 03:01:01 CST INFO  com.gauss.shell.ExeCommand 54 Exec - befor while/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:01:22 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:01:22 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:01:22 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:22 CST INFO  com.gauss.shell.ExeCommand 44 Exec - session get connected
+2017-08-01 at 03:01:22 CST INFO  com.gauss.shell.ExeCommand 54 Exec - befor while.CFUserTextEncoding
+2017-08-01 at 03:01:22 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .forward
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .oracle_jre_usage
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .sh_history
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .viminfo
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .zjz.swp
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - Library
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - Parallels
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - bash_profile
+2017-08-01 at 03:01:23 CST INFO  com.gauss.shell.ExeCommand 56 Exec - vimrc
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:01:26 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:01:26 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:01:26 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:27 CST INFO  com.gauss.shell.ExeCommand 44 Exec - session get connected
+2017-08-01 at 03:01:27 CST INFO  com.gauss.shell.ExeCommand 54 Exec - befor while/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:01:33 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:01:33 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:01:33 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:33 CST INFO  com.gauss.shell.ExeCommand 44 Exec - session get connected
+2017-08-01 at 03:01:33 CST INFO  com.gauss.shell.ExeCommand 54 Exec - befor while.CFUserTextEncoding
+2017-08-01 at 03:01:33 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .forward
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .oracle_jre_usage
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .sh_history
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .viminfo
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - .zjz.swp
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - Library
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - Parallels
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - bash_profile
+2017-08-01 at 03:01:34 CST INFO  com.gauss.shell.ExeCommand 56 Exec - vimrc
+2017-08-01 at 03:01:47 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:01:48 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:01:48 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:01:51 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/-d
+2017-08-01 at 03:01:52 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:01:52 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:01:52 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:52 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/-d
+2017-08-01 at 03:01:52 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:01:53 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:01:53 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:01:53 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:01:53 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:01:53 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:01:53 CST INFO  com.gauss.shell.ExeCommand 44 Exec - session get connected
+2017-08-01 at 03:01:53 CST INFO  com.gauss.shell.ExeCommand 54 Exec - befor while/Users/zhaojizhuang/-d
+2017-08-01 at 03:04:00 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:04:01 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:04:01 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:04:03 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:04:05 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:04:05 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:04:05 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:04:05 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:04:05 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:04:06 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:04:06 CST INFO  com.gauss.shell.ExeCommand 55 Exec - befor while/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:05:51 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:05:52 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:05:52 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:05:54 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:05:55 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:05:55 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:05:55 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:05:55 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:05:55 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:16 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:06:17 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:06:17 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:06:20 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:06:21 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:06:21 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:21 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:06:21 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:06:21 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:06:34 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:34 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:06:34 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:06:34 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:06:37 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:37 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:06:37 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:06:37 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:06:41 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:06:41 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:06:41 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:06:41 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:07:29 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:07:30 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:07:30 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:07:33 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:07:34 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:07:34 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:07:34 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:07:34 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13842.log
+2017-08-01 at 03:07:34 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:07:35 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13842.logcd /
+2017-08-01 at 03:07:35 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:07:35 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /:
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DS_Store
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DocumentRevisions-V100
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Spotlight-V100
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Trashes
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .file
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .fseventsd
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .vol
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Applications
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Library
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Network
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - PackageInfo
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Scripts
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - System
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Users
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Volumes
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - a.txt
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.a
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.tx
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - bin
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - cores
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - dev
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - etc
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - home
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - installer.failurerequests
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - net
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - opt
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - private
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - sbin
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - tmp
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - usr
+2017-08-01 at 03:07:35 CST INFO  com.gauss.shell.ExeCommand 57 Exec - var
+2017-08-01 at 03:09:15 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:09:16 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:09:16 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:09:18 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:09:22 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:09:22 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:09:22 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13846.logcd /
+2017-08-01 at 03:09:22 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:09:22 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /:
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DS_Store
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DocumentRevisions-V100
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Spotlight-V100
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Trashes
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .file
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .fseventsd
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .vol
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Applications
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Library
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Network
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - PackageInfo
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Scripts
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - System
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Users
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Volumes
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - a.txt
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.a
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.tx
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - bin
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - cores
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - dev
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - etc
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - home
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - installer.failurerequests
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - net
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - opt
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - private
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - sbin
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - tmp
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - usr
+2017-08-01 at 03:09:23 CST INFO  com.gauss.shell.ExeCommand 57 Exec - var
+2017-08-01 at 03:09:57 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:09:58 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:09:58 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:09:59 CST INFO  com.gauss.window.Main 89 actionPerformed - chosen file is: /Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 41 ReadParams - read params
+2017-08-01 at 03:10:00 CST INFO  com.gauss.fileutils.PropertiesUtils 44 <clinit> - load filesettings.properties
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 47 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 37 uploadfile - 开始上传文件/Users/zhaojizhuang/hs_err_pid13846.log
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 59 putfile - jsch getsession ,hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111]
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 66 putfile - session get connected
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 70 putfile - channelsftp connected
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.SFTPTest 73 putfile - 进行文件传输操作：put.....
+2017-08-01 at 03:10:00 CST INFO  com.gauss.window.Main 98 actionPerformed - zh执行
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 27 Exec - 执行command，command：ls /Users/zhaojizhuang/hs_err_pid13846.logcd /
+2017-08-01 at 03:10:00 CST INFO  com.gauss.fileutils.PropertiesUtils 109 ReadParams - read params
+2017-08-01 at 03:10:00 CST INFO  com.gauss.fileutils.PropertiesUtils 115 ReadParams - hostinfo:hostinfo [host=localhost, name=root, password=666666, port=22, sql_dst_path=/Users/zhaojizhuang/Desktop/111],
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 45 Exec - session get connected
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - /:
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DS_Store
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .DocumentRevisions-V100
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Spotlight-V100
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .Trashes
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .file
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .fseventsd
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - .vol
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Applications
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Library
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Network
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - PackageInfo
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Scripts
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - System
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Users
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - Volumes
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - a.txt
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.a
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - b.tx
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - bin
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - cores
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - dev
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - etc
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - home
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - installer.failurerequests
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - net
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - opt
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - private
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - sbin
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - tmp
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - usr
+2017-08-01 at 03:10:00 CST INFO  com.gauss.shell.ExeCommand 57 Exec - var
+2017-08-01 at 03:16:31 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:16:31 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:16:31 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:16:42 CST INFO  com.gauss.window.Main$1 57 run - 进入main run 
+2017-08-01 at 03:16:43 CST INFO  com.gauss.window.Main$1 59 run - 创建 main窗口
+2017-08-01 at 03:16:43 CST WARN  com.gauss.window.Main$1 60 run - adsfasdf
+2017-08-01 at 03:23:23 CST INFO  com.gauss.window.Main$1 62 run - 进入main run 
+2017-08-01 at 03:23:24 CST INFO  com.gauss.window.Main$1 64 run - 创建 main窗口
+2017-08-01 at 03:23:24 CST WARN  com.gauss.window.Main$1 65 run - adsfasdf
+2017-08-01 at 03:23:34 CST INFO  com.gauss.window.Main$2 144 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13846.log
+2017-08-01 at 03:23:54 CST INFO  com.gauss.window.Main$2 144 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13846.log

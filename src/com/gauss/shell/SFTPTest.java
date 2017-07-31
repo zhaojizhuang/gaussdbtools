@@ -2,20 +2,23 @@ package com.gauss.shell;
 
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.util.PropertiesUtil;
+
+import com.gauss.fileutils.PropertiesUtils;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
+import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import oracle.jrockit.jfr.ActiveRecordingEvent;
+import sun.util.logging.resources.logging;
 
 public class SFTPTest {
 
-	public static String host;
-	public static String name;
-	public static String password;
-	public static String port;
-	public static String sql_dst_path;
-
+	private static Logger log= LogManager.getLogger(SFTPTest.class);
+	static hostinfo host = new hostinfo(); 
     /**
      * @param args
      * @throws Exception
@@ -29,12 +32,23 @@ public class SFTPTest {
 			e.printStackTrace();
 		}
     }
-    public void uploadfile(){
-    	System.out.println("开始上传文件");
+    public static void uploadfile(String sQL_file_path){
+    	ReadParams();
+    	log.info("开始上传文件"+sQL_file_path);
+    	putfile(host, sQL_file_path);
+    }
+    public static void ReadParams(){
+    	log.info("read params");
+    	host.setHost(PropertiesUtils.getKeyValue("host"));
+    	host.setName(PropertiesUtils.getKeyValue("name"));
+    	host.setPassword(PropertiesUtils.getKeyValue("password"));
+    	host.setPort(PropertiesUtils.getKeyValue("port"));
+    	host.setSql_dst_path(PropertiesUtils.getKeyValue("sql_dst_path"));
+    	log.info("hostinfo:"+host+",");
     }
     
     
-    public static void  putfile(String host,String username,String passwd,int port,String srcfile,String dstfile){
+    public static void  putfile(hostinfo host,String srcfile){
     	 //1、创建JSch类，好比是FlashFXP工具
     	   JSch jsch = new JSch();
     	        
@@ -42,19 +56,21 @@ public class SFTPTest {
     	   Session session ;
     	   ChannelSftp channelSftp = null;
     	   try{
-    		   session = jsch.getSession(username, host, port);
-	    	   session.setPassword(passwd);
+    		   log.info("jsch getsession ,"+host);
+    		   session = jsch.getSession(host.getName(), host.getHost(), Integer.parseInt(host.getPort()));
+	    	   session.setPassword(host.getPassword());
 	    	   Properties config = new Properties();
 	    	   config.put("StrictHostKeyChecking", "no");
 	    	   session.setConfig(config);
 	    	   session.connect();
-    	
+	    	   log.info("session get connected");
     	   //3、在该session会话中开启一个SFTP通道，之后就可以在该通道中进行文件传输了
     	       channelSftp = (ChannelSftp)session.openChannel("sftp");
     	       channelSftp.connect();
+    	       log.info("channelsftp connected");
     	   	   //4、进行文件传输操作：put()、get()....
-        	   channelSftp.put(srcfile,dstfile);
-        	        
+        	   channelSftp.put(srcfile,host.getSql_dst_path());
+        	   log.info("进行文件传输操作：put.....");
         	   //5、操作完毕后，关闭通道并退出本次会话
         	   if(channelSftp!=null && channelSftp.isConnected()){
         	        channelSftp.disconnect();
@@ -65,6 +81,7 @@ public class SFTPTest {
         	   }
     	   }catch(Exception e){
     	       e.printStackTrace();
+    	       log.error(e);
     	       channelSftp.disconnect();
     	   }
     	        

@@ -4,19 +4,33 @@ import java.awt.Container;
 import java.awt.EventQueue;
 import java.awt.Point;
 import java.awt.Toolkit;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.Set;
+import java.util.Vector;
 
 import javax.swing.JButton;
+import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
+import javax.swing.TransferHandler;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.gauss.shell.ExeCommand;
+import com.gauss.shell.SFTPTest;
+import com.sun.org.apache.bcel.internal.generic.NEW;
+
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import java.awt.Color;
 
 
 
@@ -26,15 +40,19 @@ import org.apache.logging.log4j.Logger;
 public class Main implements ActionListener {
 	
 	static Logger log = LogManager.getLogger(Main.class.getName());
-	
-	JFrame frame = new JFrame("gaussdb-tools");// 框架布局
+	static String SQL_file_path=null;
+	static Vector<String> out=new Vector<>();
+	JFrame frame = new JFrame("GaussDb 可视化小工具");// 框架布局
 	Container con = new Container();//
 	JLabel choseSQLtxt = new JLabel("选择sql文件");
 	JTextField SQLFilePath = new JTextField();// 文件的路径
-	JButton button2 = new JButton("...");// 选择
+	JButton chosefile_button = new JButton("...");// 选择
 	JFileChooser jfc = new JFileChooser();// 文件选择器
-	JButton button3 = new JButton("确定");//
-
+	JButton commit_button = new JButton("确定");//
+	private final JScrollPane scrollPane = new JScrollPane();
+	static JLabel logLabel = new javax.swing.JLabel();  
+	public static  JTextArea logTextArea=new JTextArea();  
+	private final JLabel lblNewLabel = new JLabel("提示！通过··· 选择文件 或者将文件拖入 选择框");
 	/**
 	 * Launch the application.
 	 */
@@ -42,7 +60,7 @@ public class Main implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					log.info("进入main run "+System.getProperty("user.dir"));
+					log.info("进入main run ");
 					Main window = new Main();
 					log.info("创建 main窗口");
 					log.warn("adsfasdf");
@@ -65,7 +83,7 @@ public class Main implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		// 绑定到选择文件，先择文件事件
-		if (e.getSource().equals(button2)) {
+		if (e.getSource().equals(chosefile_button)) {
 			System.out.println("点击选择文件");
 			jfc.setFileSelectionMode(0);// 设定只能选择到文件
 			int state = jfc.showOpenDialog(null);// 此句是打开文件选择器界面的触发语句
@@ -74,19 +92,25 @@ public class Main implements ActionListener {
 			} else {
 				File f = jfc.getSelectedFile();// f为选择到的文件
 				SQLFilePath.setText(f.getAbsolutePath());
-				System.out.println("chosen file is: " + f);
-
-				try {
-					//SFTPTest.putfile("localhost", "root", "666666", 22, f.toString(), "/b.a");
-				} catch (Exception e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				log.info("chosen file is: " + f);
+				SQL_file_path = f.toString();
+			
 			}
 		}
-		if (e.getSource().equals(button3)) {
+		if (e.getSource().equals(commit_button)) {
 			// 弹出对话框可以改变里面的参数具体得靠大家自己去看，时间很短
-			JOptionPane.showMessageDialog(null, "弹出对话框的实例，欢迎您-漆艾琳！", "提示", 2);
+			try {
+				SFTPTest.uploadfile(SQL_file_path);
+				log.info("zh执行");
+				ExeCommand.Exec("ls "+SQL_file_path+"cd /", out);
+				
+			} catch (Exception e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+				log.error(e1);
+				JOptionPane.showMessageDialog(null, "执行SQL失败", "提示", 2);
+			}
+			JOptionPane.showMessageDialog(null, "执行SQL成功", "提示", 2);
 		}
 	}
 
@@ -100,18 +124,100 @@ public class Main implements ActionListener {
 		frame.setLocation(new Point((int) (lx / 2) - 150, (int) (ly / 2) - 150));// 设定窗口出现位置
 		frame.setSize(800, 600);// 设定窗口大小
 
-		choseSQLtxt.setBounds(10, 35, 90, 20);
-		SQLFilePath.setBounds(110, 35, 120, 20);
-		button2.setBounds(245, 36, 50, 20);
-		button3.setBounds(311, 36, 60, 20);
-		button2.addActionListener(this); // 添加事件处理
-		button3.addActionListener(this); // 添加事件处理
+		choseSQLtxt.setBounds(32, 35, 90, 20);
+		SQLFilePath.setBounds(125, 35, 120, 20);
+		
+		SQLFilePath.setTransferHandler(new TransferHandler()  
+        {  
+            private static final long serialVersionUID = 1L;  
+            @Override  
+            public boolean importData(JComponent comp, Transferable t) {  
+                try {  
+                    Object o = t.getTransferData(DataFlavor.javaFileListFlavor);  
+  
+                    String filepath = o.toString();  
+                    if (filepath.startsWith("[")) {  
+                        filepath = filepath.substring(1);  
+                    }  
+                    if (filepath.endsWith("]")) {  
+                        filepath = filepath.substring(0, filepath.length() - 1);  
+                    }  
+                    log.info(filepath);  
+                    SQLFilePath.setText(filepath);  
+                    return true;  
+                }  
+                catch (Exception e) {  
+                    e.printStackTrace();  
+                }  
+                return false;  
+            }  
+            @Override  
+            public boolean canImport(JComponent comp, DataFlavor[] flavors) {  
+                for (int i = 0; i < flavors.length; i++) {  
+                    if (DataFlavor.javaFileListFlavor.equals(flavors[i])) {  
+                        return true;  
+                    }  
+                }  
+                return false;  
+            }  
+        });  
+		
+		
+		
+		
+		
+		
+		chosefile_button.setBounds(245, 36, 50, 20);
+		commit_button.setBounds(311, 36, 60, 20);
+		chosefile_button.addActionListener(this); // 添加事件处理
+		commit_button.addActionListener(this); // 添加事件处理
 		con.add(choseSQLtxt);
 		con.add(SQLFilePath);
-		con.add(button2);
-		con.add(button3);
+		con.add(chosefile_button);
+		con.add(commit_button);
 		frame.setVisible(true);// 窗口可见
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 使能关闭窗口，结束程序
 		frame.getContentPane().add(con);
+		scrollPane.setBounds(28, 328, 740, 208);
+		
+		con.add(scrollPane);
+		logLabel.setText(" adsfadfadsfadsf");  
+		  
+        logTextArea.setColumns(20);  
+        logTextArea.setRows(5);  
+        scrollPane.setViewportView(logTextArea);  
+        
+        JLabel label = new JLabel("输出：");
+        label.setBounds(28, 300, 61, 16);
+        con.add(label);
+        
+        JTextArea textArea = new JTextArea();
+        textArea.setBounds(32, 110, 733, 144);
+        con.add(textArea);
+        
+        JButton button = new JButton("执行");
+        button.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        	}
+        });
+        button.setBackground(Color.MAGENTA);
+        button.setForeground(Color.BLACK);
+        button.setBounds(574, 266, 82, 29);
+        con.add(button);
+        
+        JButton button_1 = new JButton("提交修改");
+        button_1.setBounds(669, 266, 96, 29);
+        con.add(button_1);
+        lblNewLabel.setForeground(Color.GRAY);
+        lblNewLabel.setBounds(33, 6, 291, 16);
+        
+        con.add(lblNewLabel);
+      
+	}
+	public static void SetText(String text){
+		  logTextArea.setText(text);
+	}
+	public static void appendText(String text){
+		logTextArea.append(text+"\r\n");
 	}
 }
