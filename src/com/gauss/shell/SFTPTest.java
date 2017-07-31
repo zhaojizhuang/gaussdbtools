@@ -6,8 +6,15 @@ import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
+import oracle.jrockit.jfr.ActiveRecordingEvent;
+
 public class SFTPTest {
 
+	public static String host;
+	public static String name;
+	public static String password;
+	public static String port;
+	public static String sql_dst_path;
 
     /**
      * @param args
@@ -22,6 +29,11 @@ public class SFTPTest {
 			e.printStackTrace();
 		}
     }
+    public void uploadfile(){
+    	System.out.println("开始上传文件");
+    }
+    
+    
     public static void  putfile(String host,String username,String passwd,int port,String srcfile,String dstfile){
     	 //1、创建JSch类，好比是FlashFXP工具
     	   JSch jsch = new JSch();
