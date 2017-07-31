@@ -626,3 +626,12 @@
 2017-08-01 at 03:28:55 CST INFO  com.gauss.window.Main$1 65 run - 创建 main窗口
 2017-08-01 at 03:28:55 CST WARN  com.gauss.window.Main$1 66 run - adsfasdf
 2017-08-01 at 03:29:13 CST INFO  com.gauss.window.Main$2 145 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13842.log
+2017-08-01 at 03:31:18 CST INFO  com.gauss.window.Main$1 63 run - 进入main run 
+2017-08-01 at 03:31:19 CST INFO  com.gauss.window.Main$1 65 run - 创建 main窗口
+2017-08-01 at 03:31:19 CST WARN  com.gauss.window.Main$1 66 run - adsfasdf
+2017-08-01 at 03:31:32 CST INFO  com.gauss.window.Main$1 63 run - 进入main run 
+2017-08-01 at 03:31:33 CST INFO  com.gauss.window.Main$1 65 run - 创建 main窗口
+2017-08-01 at 03:31:33 CST WARN  com.gauss.window.Main$1 66 run - adsfasdf
+2017-08-01 at 03:35:27 CST INFO  com.gauss.window.Main$1 63 run - 进入main run 
+2017-08-01 at 03:35:28 CST INFO  com.gauss.window.Main$1 65 run - 创建 main窗口
+2017-08-01 at 03:35:28 CST WARN  com.gauss.window.Main$1 66 run - adsfasdf
