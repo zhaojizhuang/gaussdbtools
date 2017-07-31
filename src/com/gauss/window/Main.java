@@ -125,7 +125,7 @@ public class Main implements ActionListener {
 		frame.setSize(800, 600);// 设定窗口大小
 
 		choseSQLtxt.setBounds(32, 35, 90, 20);
-		SQLFilePath.setBounds(125, 35, 120, 20);
+		SQLFilePath.setBounds(125, 35, 470, 20);
 		
 		SQLFilePath.setTransferHandler(new TransferHandler()  
         {  
@@ -167,8 +167,8 @@ public class Main implements ActionListener {
 		
 		
 		
-		chosefile_button.setBounds(245, 36, 50, 20);
-		commit_button.setBounds(311, 36, 60, 20);
+		chosefile_button.setBounds(606, 36, 50, 20);
+		commit_button.setBounds(678, 36, 60, 20);
 		chosefile_button.addActionListener(this); // 添加事件处理
 		commit_button.addActionListener(this); // 添加事件处理
 		con.add(choseSQLtxt);

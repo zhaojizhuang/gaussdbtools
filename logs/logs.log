@@ -622,3 +622,7 @@
 2017-08-01 at 03:23:24 CST WARN  com.gauss.window.Main$1 65 run - adsfasdf
 2017-08-01 at 03:23:34 CST INFO  com.gauss.window.Main$2 144 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13846.log
 2017-08-01 at 03:23:54 CST INFO  com.gauss.window.Main$2 144 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13846.log
+2017-08-01 at 03:28:54 CST INFO  com.gauss.window.Main$1 63 run - 进入main run 
+2017-08-01 at 03:28:55 CST INFO  com.gauss.window.Main$1 65 run - 创建 main窗口
+2017-08-01 at 03:28:55 CST WARN  com.gauss.window.Main$1 66 run - adsfasdf
+2017-08-01 at 03:29:13 CST INFO  com.gauss.window.Main$2 145 importData - /Users/zhaojizhuang/Desktop/111/hs_err_pid13842.log
